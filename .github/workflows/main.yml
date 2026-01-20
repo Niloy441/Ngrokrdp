@@ -49,8 +49,6 @@ jobs:
           echo "::notice title=RDP Address::$cleanUrl"
           echo "::notice title=Username::runneradmin"
           echo "::notice title=Password::P@ssw0rd!"
-        } catch {
-          Write-Error "Ngrok failed to start. Check your Auth Token."
         }
 
     - name: 5. Keep Session Alive
