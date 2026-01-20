@@ -49,7 +49,7 @@ jobs:
           echo "::notice title=RDP Address::$cleanUrl"
           echo "::notice title=Username::runneradmin"
           echo "::notice title=Password::P@ssw0rd!"
-        }
+        }}
 
     - name: 5. Keep Session Alive
       run: |
